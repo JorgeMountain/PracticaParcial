@@ -1,0 +1,39 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #f1f1f1;
+}
+
+.supercontainer {
+    display: flex;
+    flex-direction: row; /* Cambia a row si quieres que estén en fila */
+    width: 40%;
+    height: 20%;
+    background-color: white;
+    margin: 0;
+    padding: 0;
+    border: 2px solid black;
+}
+
+.container1 {
+    width: 30%;
+    height: 20%;
+    background-color: white;
+    margin: 20px;
+    padding: 14px;
+    border: 2px solid black;
+    writing-mode: horizontal-tb;
+}
+
+.container2 {
+    width: 10%;
+    height: 60%;
+    background-color: white;
+    margin: 20px; /* Añadido para consistencia */
+    padding: 20px;
+    border: 2px solid black;
+    writing-mode: vertical-rl;
+}
