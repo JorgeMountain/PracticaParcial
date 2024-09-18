@@ -11,7 +11,7 @@ body {
     display: flex;
     flex-direction: row; /* Cambia a row si quieres que estén en fila */
     width: 40%;
-    height: 20%;
+    height: 40%;
     background-color: white;
     margin: 0;
     padding: 0;
